@@ -10,17 +10,11 @@ Pod::Spec.new do |s|
   s.swift_versions   = ['5.0']
   s.source           = { :git => 'https://github.com/noraksovann123/Acleda_SDK.git', :tag => s.version.to_s }
 
-  # ✅ Correct source files path — matches your structure
-  s.source_files     = 'Acleda_SDK/Source/Acleda_SDK/**/*.{swift,h,m}'
+  s.source_files     = 'Acleda_SDK/Source/**/*.{swift,h,m}'
 
-  # ✅ If you have Resources, make sure they exist
-  s.resources        = 'Acleda_SDK/Resources/**/*'
-  s.resource_bundles = {
-    'Acleda_SDK' => ['Acleda_SDK/Resources/**/*']
-  }
-
-  # ✅ Dependencies
   s.dependency 'onnxruntime-objc'
   s.dependency 'onnxruntime-c'
   s.dependency 'GoogleMLKit/FaceDetection'
+
+  s.static_framework = false
 end
