@@ -17,22 +17,9 @@
 		ED29A35A7E6624EFC5AC7576 /* Pods-Acleda_SDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Acleda_SDK.debug.xcconfig"; path = "Target Support Files/Pods-Acleda_SDK/Pods-Acleda_SDK.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		4D6352622E13D95A0077B2F2 /* Exceptions for "Acleda_SDK" folder in "Acleda_SDK" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			publicHeaders = (
-				Acleda_SDK.h,
-			);
-			target = 4D63525A2E13D95A0077B2F2 /* Acleda_SDK */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		4D63525D2E13D95A0077B2F2 /* Acleda_SDK */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				4D6352622E13D95A0077B2F2 /* Exceptions for "Acleda_SDK" folder in "Acleda_SDK" target */,
-			);
 			path = Acleda_SDK;
 			sourceTree = "<group>";
 		};
